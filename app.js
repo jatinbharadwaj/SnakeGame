@@ -1,4 +1,4 @@
-const cvs = document.getElementById('snake');add
+const cvs = document.getElementById('snake');
 const ctx = cvs.getContext('2d');
 
 //smallest unit on the board 
@@ -109,6 +109,7 @@ function draw(){
     }
     if(snakeX < box || snakeX > 17 * box || snakeY < 3*box || snakeY > 17*box || collision(newHead,snake)){
         clearInterval(game);
+
     }
     
     snake.unshift(newHead);
