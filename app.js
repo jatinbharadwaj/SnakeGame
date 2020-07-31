@@ -1,4 +1,4 @@
-const cvs = document.getElementById('snake');
+const cvs = document.getElementById('snake');add
 const ctx = cvs.getContext('2d');
 
 //smallest unit on the board 
